@@ -10,7 +10,7 @@ spec:
       - name: mycontainer
         image: "devopsjourney1/mywebapp:latest"
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         envFrom:
         - configMapRef:
             name: mykustom-map
